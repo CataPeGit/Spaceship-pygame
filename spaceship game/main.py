@@ -14,8 +14,8 @@ YELLOW = (255, 255, 0)
 
 BORDER = pygame.Rect(WIDTH//2, 0 , 10, HEIGHT)
 
-BULLET_HIT_SOUND = pygame.mixer.Sound(os.path.join('####ADD-PATH-HERE####'))
-BULLET_FIRE_SOUND = pygame.mixer.Sound(os.path.join('####ADD-PATH-HERE####'))
+BULLET_HIT_SOUND = pygame.mixer.Sound(os.path.join('##### PATH_FOR #### /Assets_Grenade+1.mp3'))
+BULLET_FIRE_SOUND = pygame.mixer.Sound(os.path.join('##### PATH_FOR #### /Assets_Gun+Silencer.mp3'))
 
 HEALTH_FONT = pygame.font.SysFont('comicsans', 40)
 WINNER_FONT = pygame.font.SysFont('comicsans', 100)
